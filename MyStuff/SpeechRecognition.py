@@ -18,12 +18,11 @@ def speech():
             print("You said: {}".format(text))
         except:
             print("Sorry I could not recognize your voice...")
-
+# This will only repeat 3 times to ensure we don't waste memory but it can go forever if we wanted it to or possibly until the end of a zoom call. 
 for i in range(3):
     speech()
 
 
-#asdadas
 
 
 
